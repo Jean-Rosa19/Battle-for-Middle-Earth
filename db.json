@@ -1,0 +1,92 @@
+{
+  "cards": [
+    {
+      "id": 1,
+      "cardName": "Ghandalf",
+      "cardDescription": "Mago-Humano",
+      "cardAttr1": "90",
+      "cardAttr2": "60",
+      "cardAttr3": "40",
+      "cardImage": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/GANDALF.jpg/200px-GANDALF.jpg",
+      "cardRare": "Raro",
+      "cardTrunfo": false
+    },
+    {
+      "cardName": "Sam",
+      "cardDescription": "Hobbit",
+      "cardAttr1": "40",
+      "cardAttr2": "30",
+      "cardAttr3": "60",
+      "cardImage": "https://i0.wp.com/nerdizmo.uai.com.br/wp-content/uploads/sites/29/2023/02/o-que-aconteceu-com-samwise-gamgee-10.jpg?resize=950%2C957&ssl=1",
+      "cardRare": "Incomun",
+      "cardTrunfo": false,
+      "id": 2
+    },
+    {
+      "cardName": "witch king",
+      "cardDescription": "Espectro do Anel",
+      "cardAttr1": "90",
+      "cardAttr2": "30",
+      "cardAttr3": "50",
+      "cardImage": "https://rare-gallery.com/uploads/posts/4589199-nazgl-witchking-of-angmar-the-lord-of-the-rings-fantasy-art.jpg",
+      "cardRare": "Raro",
+      "cardTrunfo": false,
+      "id": 3
+    },
+    {
+      "cardName": "Aragorn",
+      "cardDescription": "Humano Nobre",
+      "cardAttr1": "90",
+      "cardAttr2": "50",
+      "cardAttr3": "30",
+      "cardImage": "https://media.takealot.com/covers_images/d66904ad940e4c7889b8a659f28e20ec/s-pdpxl.file",
+      "cardRare": "Raro",
+      "cardTrunfo": false,
+      "id": 4
+    },
+    {
+      "cardName": "frodo ",
+      "cardDescription": "Hobbit",
+      "cardAttr1": "30",
+      "cardAttr2": "45",
+      "cardAttr3": "60",
+      "cardImage": "https://images.squarespace-cdn.com/content/v1/5a31e01bccc5c5b0b96ea4c4/1562757052510-O581M1KQSVP2XEK6ULLW/frodosmall.jpg?format=750w",
+      "cardRare": "Raro",
+      "cardTrunfo": false,
+      "id": 5
+    },
+    {
+      "cardName": "gimli",
+      "cardDescription": "Anão - Guerreiro",
+      "cardAttr1": "90",
+      "cardAttr2": "60",
+      "cardAttr3": "20",
+      "cardImage": "https://i.redd.it/nd0ykhiudj791.jpg",
+      "cardRare": "Raro",
+      "cardTrunfo": false,
+      "id": 6
+    },
+    {
+      "cardName": "legolas",
+      "cardDescription": "Elfo - Batedor",
+      "cardAttr1": "90",
+      "cardAttr2": "30",
+      "cardAttr3": "70",
+      "cardImage": "https://i.redd.it/h4yyp82z55681.jpg",
+      "cardRare": "Raro",
+      "cardTrunfo": false,
+      "id": 7
+    },
+    {
+      "cardName": "gollum",
+      "cardDescription": "hobbit",
+      "cardAttr1": "12",
+      "cardAttr2": "12",
+      "cardAttr3": "12",
+      "cardImage": "https://cdna.artstation.com/p/assets/covers/images/001/496/290/large/ricardo-chucky-gollum-slo.jpg?1447433940",
+      "cardRare": "Raro",
+      "cardTrunfo": false,
+      "id": 8
+    }
+  ]
+}
