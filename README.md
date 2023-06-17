@@ -15,7 +15,7 @@ Battle for Middle-Earth é um aplicativo desenvolvido no estilo do jogo Super Tr
    npm install
    
 4- Inicie o servidor de desenvolvimento e o banco de dados: <br>
-   npm run dev
+   npm run dev <br>
    npm run json-server
 
 ## Apresentação 
