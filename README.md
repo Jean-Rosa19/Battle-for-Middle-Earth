@@ -5,16 +5,16 @@ Battle for Middle-Earth é um aplicativo desenvolvido no estilo do jogo Super Tr
 
 ## Executando a Aplicação
 
-1- Clone o repositório:
+1- Clone o repositório: <br>
    git clone git@github.com:Jean-Rosa19/Battle-for-Middle-Earth.git
   
-2- Navegue até a pasta do projeto:
+2- Navegue até a pasta do projeto: <br>
    cd Battle-for-Middle-Earth
    
-3- Instale as dependências:
+3- Instale as dependências: <br>
    npm install
    
-4- Inicie o servidor de desenvolvimento e o banco de dados:
+4- Inicie o servidor de desenvolvimento e o banco de dados: <br>
    npm run dev
    npm run json-server
 
