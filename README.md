@@ -1,22 +1,20 @@
 # Battle-for-Middle-Earth
 
-## Desenvolvimento
-
-App Desenvolvido ao estilo do jogo Super Trunfo, o qual através do uso de uma API criada usando json-server o usuário possa fazer requisiçṍes através do axios para:
-customizar, inserir e deletar cartas em sua coleção.
-O desenvolvimento inicial com vite.js, permitiu uma criação de maneira funcional com react.js e typescript, onde sua estrutura baseada em componentes e sua lógica 
-organizada com auxílio de props e hooks como useState e useEffect permite a interação com o usuário.
-sua estilização foi baseada em Styled-components.
+## Descrição
+Battle for Middle-Earth é um aplicativo desenvolvido no estilo do jogo Super Trunfo. Ele permite que os usuários personalizem, insiram e excluam cartas em sua coleção através do uso de uma API criada com json-server. O aplicativo foi desenvolvido utilizando Vite.js, React.js e TypeScript, seguindo uma estrutura baseada em componentes e uma lógica organizada com o auxílio de props e hooks, como useState e useEffect. A estilização foi implementada utilizando Styled Components.
 
 ## Executando a Aplicação
 
 1- Clone o repositório:
    git clone git@github.com:Jean-Rosa19/Battle-for-Middle-Earth.git
   
-2- Entre na pasta do projeto:
+2- Navegue até a pasta do projeto:
    cd Battle-for-Middle-Earth
    
-3- Rodando a aplicação e o banco de dados:
+3- Instale as dependências:
+   npm install
+   
+4- Inicie o servidor de desenvolvimento e o banco de dados:
    npm run dev
    npm run json-server
 
