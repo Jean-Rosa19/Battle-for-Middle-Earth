@@ -10,15 +10,15 @@ sua estilização foi baseada em Styled-components.
 
 ## Executando a Aplicação
 
-*  Clone o repositório:
+1- Clone o repositório:
    git clone git@github.com:Jean-Rosa19/Battle-for-Middle-Earth.git
   
-*  Entre na pasta do projeto:
+2- Entre na pasta do projeto:
    cd Battle-for-Middle-Earth
    
-* Rodando a aplicação e o banco de dados:
-  npm run dev
-  npm run json-server
+3- Rodando a aplicação e o banco de dados:
+   npm run dev
+   npm run json-server
 
 ## Apresentação 
 ![Battle for Middle Earth](https://media.giphy.com/media/ONfALzZE7XKmqnUqdO/giphy.gif)
