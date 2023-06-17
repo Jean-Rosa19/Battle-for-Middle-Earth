@@ -1,4 +1,3 @@
-// import axios from "axios";
 import React, { useEffect, useState } from "react";
 import { CardProps } from "../Card";
 import {
@@ -26,10 +25,10 @@ export interface FormProps {
 }
 
 export function Form(props: FormProps) {
-  const { card, onInputChange, isSaveButtonDisabled, hasTrunfo } = props;
+  const { card, onInputChange, isSaveButtonDisabled, } = props;
   const [formValid, setFormValid] = useState(false);
   const [hasSuperTrunfo, setHasSuperTrunfo] = useState(false);
-  const [isSaving, setIsSaving] = useState(false);
+  const [isSaving] = useState(false);
 
   useEffect(() => {
     let isMounted = true;
@@ -95,34 +94,6 @@ export function Form(props: FormProps) {
     validateForm();
   };
 
-  // const handleSaveButtonClick = async (
-  //   event: React.MouseEvent<HTMLButtonElement>
-  // ) => {
-  //   event.preventDefault();
-
-  //   if (formValid && !isSaving) {
-  //     const newCard = { ...card };
-
-  //     if (newCard.cardTrunfo && hasSuperTrunfo) {
-  //       console.log("Você já tem um Super Trunfo em seu baralho.");
-  //       return;
-  //     }
-
-  //     try {
-  //       setIsSaving(true); // Desabilita o botão de salvamento imediatamente
-
-  //       // Chamar a API para salvar a nova carta no banco de dados
-  //       await axios.post("http://localhost:3001/cards", newCard);
-  //       console.log("Nova carta salva com sucesso.");
-  //       props.onSaveButtonClick();
-  //     } catch (error) {
-  //       console.error("Erro ao salvar a nova carta:", error);
-  //     } finally {
-  //       setIsSaving(false); // Habilita o botão de salvamento novamente após a conclusão
-  //     }
-  //   }
-  // };
-
   const {
     card: {
       cardName,
@@ -132,7 +103,7 @@ export function Form(props: FormProps) {
       cardAttr3,
       cardImage,
       cardRare,
-      cardTrunfo
+      // cardTrunfo
     }
   } = props;
 
