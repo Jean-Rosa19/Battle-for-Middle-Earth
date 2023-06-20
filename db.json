@@ -87,6 +87,17 @@
       "cardRare": "Raro",
       "cardTrunfo": false,
       "id": 8
+    },
+    {
+      "cardName": "sauron",
+      "cardDescription": "Avatar",
+      "cardAttr1": "90",
+      "cardAttr2": "40",
+      "cardAttr3": "50",
+      "cardImage": "https://images.squarespace-cdn.com/content/v1/5fbc4a62c2150e62cfcb09aa/1671547314084-GXIQ2A8WRNKPLNH4RBZX/wallpapersden.com_sauron-lord-of.jpg",
+      "cardRare": "Raro",
+      "cardTrunfo": "on",
+      "id": 9
     }
   ]
 }

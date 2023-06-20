@@ -5,10 +5,8 @@ export const StyledFormContainer = styled.div`
   gap: 16px;
   align-items: flex-start;
   justify-content: center;
-  margin-top: 32px; /* Espaçamento para separar o formulário das características do card */
-  
+  margin-top: 32px;
 `;
-
 
 export const StyledForm = styled.form`
   display: flex;
@@ -17,6 +15,9 @@ export const StyledForm = styled.form`
   gap: 16px;
   padding: 16px;
   width: 420px;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+
 
   @media (max-width: 768px) {
     width: 100%;
@@ -55,6 +56,10 @@ export const StyledInput = styled.input`
   width: 90%;
   background-color: palegoldenrod;
   text-align: left;
+  border-radius: 4px;
+  border: none;
+  padding: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 `;
 
 export const StyledDescriptionArea = styled.div`
@@ -62,7 +67,6 @@ export const StyledDescriptionArea = styled.div`
   display: flex;
   flex-direction: column;
   gap: 6px;
-  
 `;
 
 export const StyledTextarea = styled.textarea`
@@ -71,8 +75,11 @@ export const StyledTextarea = styled.textarea`
   width: 90%;
   background-color: palegoldenrod;
   text-align: left;
+  border-radius: 4px;
+  border: none;
+  padding: 4px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 `;
-
 
 export const StyledAttrContainer = styled.div`
   display: flex;
@@ -111,7 +118,7 @@ export const StyledTrunfoCardArea = styled.div`
 `;
 
 export const StyledSaveButton = styled.button`
-  background-color: ${(props) => props.theme['brow-500']};;
+  background-color: ${(props) => props.theme['brow-500']};
   border: 2px solid #23192f;
   border-radius: 4px;
   border-color: yellow;
